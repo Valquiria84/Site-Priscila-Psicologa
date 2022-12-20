@@ -1,0 +1,710 @@
+@font-face {
+    font-family: 'Jost';
+    src: url('./font/Jost-Regular.woff2') format('woff2'),
+        url('./font/Jost-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    font-family: 'Jost';
+}
+
+.esconder-celular {
+    display: none;
+}
+
+.esconder-site {
+	display: inherit
+}
+
+/* inicio cabeçalho/menu*/
+
+header {
+    background-color: #ffffff;
+    position: fixed !important;
+    z-index: 999999;
+    width: 100%;
+    box-shadow: 5px 5px 5px 0px rgb(0 0 0 / 30%)
+}
+
+.menu {
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    margin-right: 3px;
+}
+
+nav li {
+    display: inline;
+    font-weight: bold;
+    padding: 5px;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #d78081;
+    font-size: 11px;
+}
+
+nav a:hover {
+    color: #ca4949;
+    text-decoration: underline;
+}
+
+.logo-pri {
+    width: 120px;
+    margin: 10px;
+}
+
+/* inicio foto com logo*/
+
+.principal {
+    background-color: #f6dfd7;
+    background-image: url(img/fundo-banner-principal.png);
+    width: 100%;
+    background-attachment: fixed;
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+.principal .largura {
+    display: grid;
+}
+
+.logo-foto {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.foto {
+    border-radius: 50%;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* final foto com logo*/
+
+/* inicio CONHEÇA*/
+
+.conheca {
+    background-image: url(img/flores-fundo-conheca.png);
+    background-color: #d78081;
+    display: inline-flex;
+    justify-content: center;
+    padding-left: 35px;
+    padding-top: 40px;
+    padding-right: 35px;
+    padding-bottom: 40px;
+    background-attachment: fixed;
+    background-position: -240px center;
+    width: calc(100% - 70px);
+}
+
+h2 {
+    color: #ffffff;
+    font-size: 30px;
+    text-shadow: 1px 1px 1px #000000;
+    margin: 15px 0;
+}
+
+h3 {
+    font-size: 25px;
+    color: #ffffff;
+    margin: 15px 0;
+}
+
+p {
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.imagem-quadro {
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.largura {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.sobre-parte1 h2, .sobre-parte2 h2 {
+	text-align: center;
+}
+
+/* final CONHEÇA*/
+
+/* Inicio Terapias*/
+
+.terapia {
+    background-image: url(img/flor-fundo-terapias.png);
+    background-position: 0 108%;
+    background-color: #eeeeee;
+    background-repeat: no-repeat;
+    display: inline-flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.terapia .largura {
+    padding: 40px 20px;
+}
+
+.painel-servicos {
+    background-color: #ffffff;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    margin: 20px 0;
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.3);
+}
+
+.imagem-painel {
+    border-radius: 50%;
+    width: 60%;
+}
+
+.painel-servicos h3 {
+    font-size: 25px;
+    font-weight: bold;
+    color: #cd5759;
+    margin-bottom: 10px;
+}
+
+.painel-servicos p {
+    margin-bottom: 18px;
+}
+
+.painel-servicos a {
+    background-color: #cd5759;
+    color: #ffffff;
+    text-decoration: none;
+    width: 70%;
+    border-radius: 25px;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.painel-servicos a:hover {
+    background-color: #d78081;
+}
+
+.texto-terapia h2 {
+    color: #cd5759;
+}
+
+.frase-contato p {
+    color: #cd5759;
+    font-weight: bold;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.texto-terapia h2 {
+	text-align: center;
+}
+	
+/* Final Terapias*/
+
+/* Inicio depoimentos*/
+
+.depoimentos {
+    background-color: #d4e189;
+    padding: 20px;
+}
+
+.depoimentos h2 {
+	 background-image: url(./img/acabamento-cabecalho-depoimento-mobile.png);
+    text-shadow: none;
+    text-align: center;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    padding-top: 30px;
+    color: #7ca45e;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.depoimentos p {
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    width: auto;
+}
+
+
+.nome-depoimento {
+    color: #628645;
+    font-weight: bold;
+    font-size: 25px
+}
+
+#slider-id {
+    background-color: #d4e189;
+
+}
+
+/* Final depoimentos*/
+
+/* inicio rodapé*/
+.rodape {
+    background-color: #d78081;
+}
+
+.rodape .largura {
+    padding: 40px 20px;
+}
+
+.rodape h2 {
+    text-align: center;
+    color: #ffffff;
+}
+
+.botao-contato {
+    color: #ffffff;
+    background-color: #619a57;
+    border-radius: 36px;
+    padding: 25px 35px;
+    font-size: 16px;
+    width: fit-content;
+    margin-left: 20px;
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.3);
+}
+
+.botao-contato:hover {
+    background-color: #7ca45e;
+}
+
+.atendimento {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.imagemcontato {
+    width: 25%;
+}
+
+.atendimento p {
+    color: #ffffff;
+}
+
+.atendimento-horario {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.redes-sociais {
+    text-align: center;
+    padding-bottom: 30px;
+    margin-top: 25px;
+}
+
+.btn-social {
+    height: 50px !important;
+    width: 50px !important;
+    display: inline-block;
+    padding: 0 !important;
+    margin: 0 5px;
+}
+
+.btn-facebook {
+    background-image: url(./img/contato-facebook-rodape.png);
+}
+
+.btn-facebook:hover {
+    background-image: url(./img/contato-facebook-rodape-hover.png);
+}
+
+.btn-instagran {
+    background-image: url(./img/contato-instagram-rodape.png);
+}
+
+.btn-instagran:hover {
+    background-image: url(./img/contato-instagram-rodape-hover.png);
+}
+
+.btn-linkedin {
+    background-image: url(./img/contato-linkedin-rodape.png);
+}
+
+.btn-linkedin:hover {
+    background-image: url(./img/contato-linkedin-rodape-hover.png);
+}
+
+/* final rodapé */
+
+
+/* Inicio Slider */
+
+.coda-slider-wrapper {
+    clear: both;
+    overflow: auto;
+    margin: 20px auto;
+	 display: flex;
+    align-content: center;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: stretch;
+    flex-direction: row;
+}
+
+.coda-slider-wrapper .coda-nav-left a, .coda-slider-wrapper .coda-nav-right a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background: #ffffff;
+    color: #628645;
+    font-weight: bold;
+    padding: 10px 15px;
+    font-size: 20px;
+    border-radius: 30px;
+}
+.coda-slider-wrapper .coda-nav-left a:hover, .coda-slider-wrapper .coda-nav-right a:hover {
+    background: #628645;
+    color: #ffffff ;
+}
+
+.coda-slider-wrapper .coda-nav-left, .coda-slider-wrapper .coda-nav-left-arrow {
+    clear: both;
+}
+.coda-slider-wrapper .coda-nav-left, .coda-slider-wrapper .coda-nav-right {
+    float: left;
+	display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+}
+
+.coda-slider-wrapper .coda-slider {
+    float: left;
+    overflow: hidden;
+    position: relative;
+	background: #f2f2f2;
+    width: 700px;
+}
+.arrows .coda-slider {
+    margin: 0 10px;
+}
+.coda-slider-wrapper .coda-slider .panel-container {
+    position: relative;
+}
+.coda-slider-wrapper .coda-slider .panel-container .panel {
+    display: block;
+    float: left;
+}
+.coda-slider-wrapper .coda-slider .panel {
+    width: 235px;
+}
+.coda-slider-wrapper .coda-slider .panel p {
+    font-size: 16px;
+}
+/* Fim Slider */
+
+/* Configuração icone whatsapp*/
+
+.rwb-tooltip {
+    background-color: #ffffff;
+}
+
+/* final Configuração icone whatsapp */
+
+
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 425px) {
+	/* Inicio Slider  */
+	.coda-slider-wrapper .coda-slider .panel {
+		width: 285px;
+	}
+	
+}
+
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+
+    /* inicio cabeçalho/menu*/
+    .logo-pri {
+        width: 250px;
+        margin: 10px;
+    }
+
+    nav a {
+        font-size: 15px;
+    }
+
+    nav {
+        margin-right: 10px;
+    }
+
+    .esconder-celular {
+        display: initial;
+    }
+	
+	.esconder-site {
+		display: none
+	}
+
+    /* inicio foto com logo*/
+
+    .principal .largura {
+        display: flex !important;
+        align-content: center;
+        align-items: center;
+    }
+
+    .foto {
+        position: relative;
+        top: 40px;
+    }
+
+    /* inicio CONHEÇA*/
+
+    .imagem-quadro {
+        width: 40%;
+        margin-left: 30%;
+    }
+
+    /* inicio Terapias*/
+    .terapia {
+        background-position: 0 115%;
+    }
+
+    .painel-servicos {
+        width: 42%;
+    }
+
+    .texto-terapia {
+        width: 100%;
+    }
+
+    .terapia .largura {
+        display: flex;
+        justify-content: space-evenly;
+        align-content: center;
+        align-items: stretch;
+        flex-wrap: wrap;
+    }
+
+    /* inicio Depoimentos*/
+
+    .depoimentos {
+        padding: 30px 20px;
+    }
+
+    .depoimentos h2 {
+        background-image: url(img/acabamento-cabecalho-depoimento.png);
+        padding-top: 55px;
+        font-size: 60px;
+    }
+
+    .depoimentos p {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+    .nome-depoimento {
+        font-size: 30px
+    }
+
+    /* inicio rodapé*/
+
+    .botao-contato {
+        margin-left: 26%;
+        font-size: 20px;
+    }
+
+    .imagemcontato {
+        width: 25%;
+    }
+
+    .atendimento {
+        width: 49%;
+    }
+
+    .atendimento p {
+        font-size: 22px;
+        line-height: 35px;
+    }
+
+    .atendimento-horario {
+        margin-top: 20px;
+        padding: 10px;
+        padding-bottom: 30px;
+    }
+
+    .redes-sociais {
+        padding-bottom: 30px;
+    }
+
+    .btn-social {
+        margin: 0 10px;
+    }
+
+	/* Inicio Slider  */
+	.coda-slider-wrapper .coda-slider .panel {
+		width: 630px;
+	}
+	.coda-slider-wrapper .coda-slider .panel p {
+		font-size: 18px;
+	}
+
+
+}
+
+/* X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1024px) {
+    .logo-pri {
+        width: 300px;
+        margin: 15px;
+    }
+
+    nav a {
+        font-size: 16px;
+    }
+
+    nav {
+        margin-right: 15px;
+    }
+
+    /* inicio foto com logo*/
+
+    .foto {
+        width: 450px;
+        top: 90px;
+    }
+
+    .logo-foto {
+        width: 400px;
+    }
+
+    .sobre-parte1 {
+        width: 55%;
+        padding-top: 60px;
+        padding-left: 50px;
+        padding-right: 40px;
+    }
+
+    .sobre-parte2 {
+        width: 45%;
+    }
+
+    .conheca .largura {
+        display: inline-flex;
+    }
+
+    h2 {
+        font-size: 40px;
+        margin: 20px 0;
+    }
+
+    h3 {
+        font-size: 30px;
+        margin: 20px 0;
+    }
+
+    .conheca p {
+        margin-left: 40px;
+    }
+
+    .imagem-quadro {
+        width: 60%;
+        margin-left: 30%;
+        position: relative;
+        margin-bottom: -100px;
+    }
+	
+	.sobre-parte1 h2, .sobre-parte2 h2 {
+		text-align: left;
+	}
+	
+    /* inicio Terapias*/
+
+    .painel-servicos {
+        width: 30%;
+    }
+
+    .terapia {
+        background-position: 0 130%;
+    }
+		
+	.texto-terapia h2 {
+		text-align: left;
+	}
+	
+    /* inicio Depoimentos*/
+
+    .depoimentos {
+        padding: 30px 60px;
+    }
+
+    /* inicio rodapé*/
+
+    .botao-contato {
+        margin-left: 36%;
+    }
+
+    .atendimento {
+        width: 49%;
+    }
+
+    .imagemcontato {
+        width: 25%;
+    }
+
+    .atendimento p {
+        font-size: 23px;
+        line-height: 35px;
+    }
+
+    .atendimento-horario {
+        margin-top: 20px;
+        padding: 10px;
+        padding-bottom: 30px;
+    }
+
+    .redes-sociais {
+        padding-bottom: 30px;
+    }
+
+    .btn-social {
+        padding: 0 15px;
+    }
+	
+	/* Inicio Slider  */
+	.coda-slider-wrapper .coda-slider .panel {
+		width: 700px;
+	}
+
+
+}
+
+/* XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) {}

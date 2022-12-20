@@ -1,0 +1,23 @@
+/*inicio configuração menu*/
+
+.menu {
+        position: relative;
+        width: 940px;
+        margin: 0 auto;
+    
+}
+nav {
+    text-align: left;
+    padding: left 20px ;
+}
+nav li {
+    display: inline;
+    margin: 0 0 0 20px;    
+    text-align: left;
+    
+
+    
+}
+header {
+    
+}
